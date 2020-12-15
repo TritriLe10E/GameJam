@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class pickup : MonoBehaviour
 {
@@ -11,9 +12,15 @@ public class pickup : MonoBehaviour
 
     public bool canHold = true;
     public GameObject item;
-    public GameObject tempParent;
+    GameObject tempParent;
     public bool isHolding = false;
 
+
+    private void Start()
+    {
+        tempParent = Camera.main.transform.GetChild(0).gameObject;
+        Debug.Log(tempParent);
+    }
     // Update is called once per frame
     void Update()
     {

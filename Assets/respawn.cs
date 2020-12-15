@@ -15,6 +15,6 @@ public class respawn : MonoBehaviour
             transform.position = spawn;
         }
 
-        Debug.Log(transform.position);
+        //Debug.Log(transform.position);
     }
 }
