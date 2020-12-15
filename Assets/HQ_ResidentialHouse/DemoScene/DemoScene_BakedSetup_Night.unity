@@ -1456,6 +1456,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 210982147}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &101762295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7673558311990317082, guid: 3160e12214460484b941e404a93506b9,
+    type: 3}
+  m_PrefabInstance: {fileID: 5621903803584877906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &101762301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101762295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fc45b6c5c94e54ca0911d2284d2ab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canHold: 1
+  item: {fileID: 101762295}
+  tempParent: {fileID: 516404199}
+  isHolding: 0
 --- !u!1001 &104496733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5186,7 +5208,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 1
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8618,6 +8640,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aa65d4422d2f3d4aa1e3455389c2ce8, type: 3}
+--- !u!1 &468620296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 737559238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &468620301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468620296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a8e223ca7a8af4eb90aec2acd2617c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &469780190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9151,6 +9191,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000013303829162, guid: 6dee2ff9fcdf1fd4f9c074df8c09941a, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012882290118, guid: 6dee2ff9fcdf1fd4f9c074df8c09941a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.579
@@ -9299,6 +9343,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 372116357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &516404199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516404200}
+  m_Layer: 0
+  m_Name: Guide
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516404200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516404199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 863484721}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &519817581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11022,7 +11096,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 6
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11301,6 +11375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000011302637862, guid: a5e3d8adae5a0d749bf9a124ca35a269, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011085090896, guid: a5e3d8adae5a0d749bf9a124ca35a269, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.244
@@ -13525,7 +13603,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 7
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -14049,7 +14127,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.026
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14057,7 +14135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.053
+      value: -24.15
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalRotation.x
@@ -14281,7 +14359,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 2
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -15481,7 +15559,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 6 (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -15847,6 +15925,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012277584606, guid: 915a74cef5755594aa262f842d8ac445,
     type: 3}
   m_PrefabInstance: {fileID: 1376596183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &863484721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 737559238}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &864684360
 GameObject:
@@ -16596,7 +16680,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888881940}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 28fc36cb189a81b43bb026a475ced8f8, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
@@ -17538,7 +17622,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 3
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -17619,7 +17703,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 9
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -17705,7 +17789,7 @@ GameObject:
   m_Layer: 0
   m_Name: ProbeAnchorOverride (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -18386,7 +18470,7 @@ GameObject:
   m_Layer: 0
   m_Name: ProbeAnchorOverride (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -21563,7 +21647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014111359768, guid: e55dd8d6ddb8b5d45bf3de7cbf1eef05, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.934
+      value: -7.1
       objectReference: {fileID: 0}
     - target: {fileID: 4000014111359768, guid: e55dd8d6ddb8b5d45bf3de7cbf1eef05, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21571,7 +21655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014111359768, guid: e55dd8d6ddb8b5d45bf3de7cbf1eef05, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.511
+      value: 0.355
       objectReference: {fileID: 0}
     - target: {fileID: 4000014111359768, guid: e55dd8d6ddb8b5d45bf3de7cbf1eef05, type: 3}
       propertyPath: m_LocalRotation.x
@@ -22633,6 +22717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000010847491850, guid: 070d7523f9b9f8740a3671073df6b718, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011396610824, guid: 070d7523f9b9f8740a3671073df6b718, type: 3}
       propertyPath: m_Name
       value: KitchenSetG_B (1)
@@ -22849,7 +22937,7 @@ GameObject:
   m_Layer: 0
   m_Name: ProbeAnchorOverride (1)
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -23821,6 +23909,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 106512, guid: fc161fae16c16fd4f851c62e3452bfec, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 460562, guid: fc161fae16c16fd4f851c62e3452bfec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.04
@@ -24063,6 +24155,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 160832, guid: 23ceb73c1bdac2d4db56b9371df37edc, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 409832, guid: 23ceb73c1bdac2d4db56b9371df37edc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.144
@@ -24110,6 +24206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000010847491850, guid: 070d7523f9b9f8740a3671073df6b718, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011058705454, guid: 070d7523f9b9f8740a3671073df6b718, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.243
@@ -24268,7 +24368,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 5
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -25208,7 +25308,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 8
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -26900,7 +27000,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 4
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -32421,6 +32521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 144918, guid: b9c9350878ce77e44b3fe3860f526cf1, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 410010, guid: b9c9350878ce77e44b3fe3860f526cf1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.852
@@ -32592,6 +32696,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000011173446308, guid: 701d04ead8b44b14bafd92736969ff1d, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013270475410, guid: 701d04ead8b44b14bafd92736969ff1d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.2436
@@ -33343,7 +33451,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride 11
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -33874,6 +33982,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 180742, guid: e8076bbce97d4e742871ab27676522ee, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 414548, guid: e8076bbce97d4e742871ab27676522ee, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.843
@@ -34362,7 +34474,7 @@ GameObject:
   m_Layer: 0
   m_Name: Door_anchorOverride
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -34765,7 +34877,7 @@ GameObject:
   m_Layer: 0
   m_Name: Kitchen_ProbeAnchorOverride
   m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -36274,6 +36386,10 @@ PrefabInstance:
     - target: {fileID: 446810, guid: 9a8c309db96bbe34d862db3028f4aa9f, type: 3}
       propertyPath: m_RootOrder
       value: 474
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012611586062, guid: 9a8c309db96bbe34d862db3028f4aa9f, type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a8c309db96bbe34d862db3028f4aa9f, type: 3}
@@ -39769,6 +39885,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 417420899}
     m_Modifications:
+    - target: {fileID: 1000011173446308, guid: 701d04ead8b44b14bafd92736969ff1d, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011985981300, guid: 701d04ead8b44b14bafd92736969ff1d, type: 3}
       propertyPath: m_Name
       value: KitchenSetB_B (1)
@@ -40658,3 +40778,78 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1694562481}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5621903803584877906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634152187203113519, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6179245481325018279, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 28fc36cb189a81b43bb026a475ced8f8,
+        type: 2}
+    - target: {fileID: 7673558311990317082, guid: 3160e12214460484b941e404a93506b9,
+        type: 3}
+      propertyPath: m_Name
+      value: Sphere
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3160e12214460484b941e404a93506b9, type: 3}
