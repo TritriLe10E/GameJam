@@ -61,14 +61,11 @@ public class pickup : MonoBehaviour
             item.GetComponent<Rigidbody>().detectCollisions = true;
         }
     }
-    void OnMouseUp()
-    {
-      isHolding = false;
-    }
-
 
     private void OnCollisionEnter(Collision collision)
     {
         isHolding = false;
     }
+
+
 }
