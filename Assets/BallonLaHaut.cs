@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BallonLaHaut : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    GameObject ball;
 
-    // Update is called once per frame
-    void Update()
+
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        Vector3 position = transform.position + transform.forward * 4f;
+        Instantiate(ball, position, transform.rotation);
+
     }
 }
+
+    
