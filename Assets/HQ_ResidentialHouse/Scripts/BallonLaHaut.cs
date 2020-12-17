@@ -14,7 +14,7 @@ public class BallonLaHaut : MonoBehaviour
         Vector3 position = new Vector3(currentX, 18f, 0.16f);
         Instantiate(ball, position, transform.rotation);
         Destroy(other.gameObject);
-        currentX += 1f;
+        currentX += 3f;
     }
 
 }
