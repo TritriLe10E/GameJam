@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 5651690286821003424}
   - component: {fileID: 5651690286821003425}
   - component: {fileID: -5110602098596703472}
+  - component: {fileID: -5189535569950172044}
   m_Layer: 0
   m_Name: Panier
   m_TagString: Untagged
@@ -327,6 +328,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 1632446468273000115, guid: e2c3590bd7d46254286ce2c5a2d71024, type: 3}
+--- !u!114 &-5189535569950172044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651690286821003451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d65e594f7268b846b3100b71f23bc4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5ad96053cf9165748aeedabe13678bd0, type: 3}
+  - {fileID: 8300000, guid: 87b252dac4c504440bf497b6d25d27ee, type: 3}
+  - {fileID: 8300000, guid: 8dec24741b197524da3ac7d79b3e51fb, type: 3}
+  - {fileID: 8300000, guid: 1b5caf273c4d4b7409d5e55ee006a6af, type: 3}
 --- !u!1 &5651690286870163813
 GameObject:
   m_ObjectHideFlags: 0
