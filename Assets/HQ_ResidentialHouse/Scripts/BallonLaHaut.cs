@@ -6,20 +6,17 @@ public class BallonLaHaut : MonoBehaviour
 {
     [SerializeField]
     GameObject ball;
-    
+    static float currentX = -6f;
 
 
     private void OnTriggerEnter(Collider other)
     {
-        Vector3 position = new Vector3(-6f, 18f, 0.16f);
+        Vector3 position = new Vector3(currentX, 18f, 0.16f);
         Instantiate(ball, position, transform.rotation);
-
+        Destroy(other.gameObject);
+        currentX += 1f;
     }
 
-    private void Update()
-    {
-        
-    }
 }
 
     
