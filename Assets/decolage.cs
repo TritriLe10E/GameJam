@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class decolage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    Camera cam;
 
-    // Update is called once per frame
+    bool triggered = false;
+
     void Update()
     {
         if(BallonLaHaut.nombreBallon >= 5)
         {
             transform.position += Vector3.up * 2f * Time.deltaTime;
+            if(!triggered)
+            {
+                triggered = true;
+                cam.rect = new Rect(0f, 0f, 1f, 1f);
+            }
         }
-        
+            
     }
 }
